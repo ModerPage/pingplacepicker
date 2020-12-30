@@ -64,6 +64,8 @@ Step 2. Add the dependency
 
 ```gradle
     dependencies {
+	    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.41'
+	    implementation 'nl.dionsegijn:konfetti:1.1.2'
             // Places library
             implementation 'com.google.android.libraries.places:places:2.0.0'
             // PING Place Picker
